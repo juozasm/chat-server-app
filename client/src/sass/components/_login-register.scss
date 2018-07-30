@@ -1,0 +1,57 @@
+.Login, .Register   {
+    h1{
+        font-size:26px;
+        margin:30px auto;
+    }
+    form{
+        width:40%;
+        margin:auto;
+    }
+    input{
+        width:100%;
+        border:none;
+        border-bottom:1px solid blueviolet;
+        display: block;
+        font-size:20px;
+        line-height:30px;
+        margin:15px 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+    input:-webkit-autofill {
+        -webkit-box-shadow: inset 0 0 0 9999px #fff;
+    }
+    button{
+        border:1px solid lightblue;
+        display: block;
+        line-height:30px;
+        border-radius:5px;
+        margin-top:45px;
+        font-size:20px;
+        width:100%;
+        user-select: none;
+        cursor: pointer;
+        transition: .2s;
+        background: #fff;
+        &:hover{
+            background: lightblue;
+            color: #fff;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    span{
+        margin-top:20px;
+        display: block;
+        font-size:20px;
+        color: blueviolet;
+    }
+    a{
+        margin-top:20px;
+        display: block;
+        font-size:20px;
+        color: blueviolet;
+        
+    }
+}
